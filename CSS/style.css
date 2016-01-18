@@ -1,0 +1,48 @@
+body {
+	font-family: Trocchi, sans-serif!important;	
+}
+
+p {
+	font-family: Georgia, serif!important;
+}
+
+.navbar-default {
+	margin: 0px;
+	background: #FFF!important;
+}
+
+h1 {
+	text-align: left;
+}
+
+h2 {
+	text-align: center;
+}
+
+li img {
+	height: auto;
+	width: 25px;
+}
+
+a {
+	color: #333;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #333
+}
+
+.jumbotron {
+	background-color: #FFF!important;
+	text-align: left;
+	font-family: "Trocchi", sans-serif;
+}
+
+.about .container {
+	padding-bottom: 50px;
+}
+
+.about p {
+	font-size: 1.5em;
+}
