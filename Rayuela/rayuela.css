@@ -34,3 +34,7 @@ a {
 	padding: 10px;
 	border: solid;
 }
+
+a:hover {
+ cursor:pointer;
+}
