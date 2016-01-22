@@ -15,7 +15,7 @@ window.onload = function(){
 	request.open("GET", 
 	"https://crossorigin.me/http://funmiojo.com/Rayuela/rayuela.json", true);
 	request.send(null);	
-}
+};
 	
 document.getElementById("quoteButton").onclick = function(){
 	//Get quote data after button is clicked
@@ -29,4 +29,4 @@ document.getElementById("quoteButton").onclick = function(){
 	request.open("GET", 
 	"https://crossorigin.me/http://funmiojo.com/Rayuela/rayuela.json", true);
 	request.send(null);	
-}
+};
