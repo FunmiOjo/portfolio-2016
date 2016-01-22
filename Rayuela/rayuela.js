@@ -16,7 +16,7 @@ window.onload = function(){
 	}};
 	//request.overrideMimeType("application/json");
 	request.open("GET", 
-	"https://crossorigin.me/https://github.com/FunmiOjo/funmiojo.github.io/Rayuela/rayuela.json", true);
+	"https://crossorigin.me/http://funmiojo.com/Rayuela/rayuela.json", true);
 	request.send(null);	
 }
 	
