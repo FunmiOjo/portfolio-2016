@@ -17,6 +17,7 @@ window.onload = function(){
 	request.overrideMimeType("application/json");
 	request.open("GET", 
 	"https://github.com/FunmiOjo/rayuela-quote-machine/rayuelaQuotes.json");
+	request.setRequestHeader('Accept', 'application/json')
 	request.send(null);	
 }
 	
