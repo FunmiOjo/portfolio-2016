@@ -6,6 +6,7 @@ function displayRandomQuote(parsedData) {
 window.onload = function(){
 	//Get quote data after button is clicked
 	var request = new XMLHttpRequest();
+	console.log(request.withCredentials !== undefined);
 	request.onreadystatechange = function() {
 	if (request.readyState == 4 && request.status == 200) {
 		var parsedData = JSON.parse(request.responseText).quotes;
