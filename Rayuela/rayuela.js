@@ -6,7 +6,6 @@ function displayRandomQuote(parsedData) {
 window.onload = function(){
 	//Get quote data after button is clicked
 	var request = new XMLHttpRequest();
-	console.log(request.withCredentials !== undefined);
 	request.onreadystatechange = function() {
 	if (request.readyState == 4 && request.status == 200) {
 		var parsedData = JSON.parse(request.responseText).quotes;
@@ -17,7 +16,7 @@ window.onload = function(){
 	}};
 	//request.overrideMimeType("application/json");
 	request.open("GET", 
-	"https://github.com/FunmiOjo/funmiojo.github.io/Rayuela/rayuela.json?enable_cors_headers=true");
+	"https://github.com/FunmiOjo/funmiojo.github.io/Rayuela/rayuela.json?enable_cors_headers=true", true);
 	request.setRequestHeader('Accept', 'application/json');
 	request.send(null);	
 }
@@ -35,7 +34,7 @@ document.getElementById("quoteButton").onclick = function(){
 	}};
 	//request.overrideMimeType("application/json");
 	request.open("GET", 
-	"https://github.com/FunmiOjo/funmiojo.github.io/Rayuela/rayuela.json?enable_cors_headers=true");
+	"https://github.com/FunmiOjo/funmiojo.github.io/Rayuela/rayuela.json?enable_cors_headers=true", true);
 	request.setRequestHeader('Accept', 'application/json');
 	request.send(null);	
 }
