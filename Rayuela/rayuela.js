@@ -16,8 +16,7 @@ window.onload = function(){
 	}};
 	//request.overrideMimeType("application/json");
 	request.open("GET", 
-	"https://github.com/FunmiOjo/funmiojo.github.io/Rayuela/rayuela.json?enable_cors_headers=true", true);
-	request.setRequestHeader('Accept', 'application/json');
+	"https://crossorigin.me/https://github.com/FunmiOjo/funmiojo.github.io/Rayuela/rayuela.json", true);
 	request.send(null);	
 }
 	
@@ -34,7 +33,7 @@ document.getElementById("quoteButton").onclick = function(){
 	}};
 	//request.overrideMimeType("application/json");
 	request.open("GET", 
-	"https://github.com/FunmiOjo/funmiojo.github.io/Rayuela/rayuela.json?enable_cors_headers=true", true);
+	"https://crossorigin.me/https://github.com/FunmiOjo/funmiojo.github.io/Rayuela/rayuela.json", true);
 	request.setRequestHeader('Accept', 'application/json');
 	request.send(null);	
 }
