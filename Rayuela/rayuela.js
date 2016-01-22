@@ -10,11 +10,8 @@ window.onload = function(){
 	if (request.readyState == 4 && request.status == 200) {
 		var parsedData = JSON.parse(request.responseText).quotes;
 		displayRandomQuote(parsedData);		
-		
-		//var randomQuoteIndex = Math.floor(Object.keys(parsedData).length * Math.random());
-		//console.log(parsedData[randomQuoteIndex].esQuote);	
 	}};
-	//request.overrideMimeType("application/json");
+
 	request.open("GET", 
 	"https://crossorigin.me/http://funmiojo.com/Rayuela/rayuela.json", true);
 	request.send(null);	
@@ -27,13 +24,9 @@ document.getElementById("quoteButton").onclick = function(){
 	if (request.readyState == 4 && request.status == 200) {
 		var parsedData = JSON.parse(request.responseText).quotes;
 		displayRandomQuote(parsedData);		
-		
-		//var randomQuoteIndex = Math.floor(Object.keys(parsedData).length * Math.random());
-		//console.log(parsedData[randomQuoteIndex].esQuote);	
 	}};
-	//request.overrideMimeType("application/json");
+	
 	request.open("GET", 
-	"https://crossorigin.me/https://github.com/FunmiOjo/funmiojo.github.io/Rayuela/rayuela.json", true);
-	request.setRequestHeader('Accept', 'application/json');
+	"https://crossorigin.me/http://funmiojo.com/Rayuela/rayuela.json", true);
 	request.send(null);	
 }
