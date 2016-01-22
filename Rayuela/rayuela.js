@@ -16,7 +16,7 @@ window.onload = function(){
 	}};
 	//request.overrideMimeType("application/json");
 	request.open("GET", 
-	"https://github.com/FunmiOjo/funmiojo.github.io/Rayuela/rayuela.json");
+	"https://github.com/FunmiOjo/funmiojo.github.io/Rayuela/rayuela.json?enable_cors_headers=true");
 	request.setRequestHeader('Accept', 'application/json');
 	request.send(null);	
 }
@@ -34,7 +34,7 @@ document.getElementById("quoteButton").onclick = function(){
 	}};
 	//request.overrideMimeType("application/json");
 	request.open("GET", 
-	"https://github.com/FunmiOjo/funmiojo.github.io/Rayuela/rayuela.json");
+	"https://github.com/FunmiOjo/funmiojo.github.io/Rayuela/rayuela.json?enable_cors_headers=true");
 	request.setRequestHeader('Accept', 'application/json');
 	request.send(null);	
 }
