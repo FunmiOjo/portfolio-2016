@@ -1,33 +1,46 @@
 body {
 	font-family: "Gentium Book Basic";
-	/*color: #002D5B;*/
 }
 
 h1 {
 	position: relative;
-		left: 20%;
+		left: 250px;
 	font-size: 2.5em;
 	font-weight: 400;
+	text-transform: uppercase;
 }
 
 #quoteDisplay {
 	display: block;
-	width: 50%;
+	width: 80%;
+	margin-right: 10%;
 	position: relative;
-		left: 20%;
+		left: 250px;
 		top: 50px;	
 	font-size: 2.3em;
-	/*color: #273543;*/
 	line-height: 1.3em;
 }
 
 #quoteButton {
 	position: relative;
-		top: 10px;
+		top: 204px;
+		left: 50px;
 	
 }
 
-a {
+#tweet {
+	position: relative;
+		top: 240px;
+		left: 50px;
+}
+
+.btn {
+	position: relative;
+		top: 240px;
+		left: 52px;
+}
+
+a  {
 	color: black;
 	font-style: italic;
 	text-decoration: none;
