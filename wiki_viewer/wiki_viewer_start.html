@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	
+			<head>
+				<meta charset="UTF-8">
+				<meta http-equiv="X-UA-Compatible" content="IE=edge">
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+				<link rel="stylesheet" href="wiki_viewer_start.css">
+				<title>Wikipedia Viewer</title>
+			</head>
+	
+			<body>
+			
+			<div id="search-bar">
+			<form action="search-form">
+					<label for="search-term">Search for a Wikipedia article<br></label>
+					<input type=search placeholder="" id="search-term" name=s>
+					<button type="submit" id="search-button"></button>
+					<a href="https://en.wikipedia.org/wiki/Special:Random" 
+					id="random"><br>Or view a random one</a>
+				</form>
+			</div>
+			<ul></ul>
+			<div id="credits">This website is powered by the <a 
+			href="https://www.mediawiki.org/wiki/API:Main_page">Wikimedia API</a>. 
+			The search icon was created by 
+			<a href="https://www.iconfinder.com/Chanut-is">Nut Chanut.</a></div>
+			</body>
+		
+
+	<script src="wiki_viewer.js"></script>
+</html>
