@@ -1,9 +1,10 @@
 body {
-	font-family: Trocchi, sans-serif!important;	
+	font-family: "Arimo", sans-serif!important;	
 }
 
 p {
-	font-family: Georgia, serif!important;
+	text-align: center;
+	font-size: 20px;
 }
 
 .navbar-default {
@@ -12,13 +13,23 @@ p {
 }
 
 h1 {
-	text-align: left;
+	text-align: center;
+	font-family: "Playfair Display", sans-serif;
+	font-weight: 900;
 }
 
 h2 {
 	text-align: center;
+	font-family: "Arimo", sans-serif;
+	font-weight: 900;
+	font-size: 24px;
 }
 
+h3 {
+	font-family: "Arimo";
+	font-weight: 900;
+	text-align: center;
+}
 li img {
 	height: auto;
 	width: 25px;
@@ -36,13 +47,32 @@ a:hover {
 .jumbotron {
 	background-color: #FFF!important;
 	text-align: left;
-	font-family: "Trocchi", sans-serif;
+}
+
+.about {
+	font-family: "Arimo", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
 }
 
 .about .container {
 	padding-bottom: 50px;
+	width: 50%;
 }
 
-.about p {
-	font-size: 1.5em;
+.project {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.tools {
+	font-style: italic;
+}
+
+.row {
+	margin-bottom: 50px;
+}
+
+#portfolio-word {
+	font-family: "Arimo";
 }
