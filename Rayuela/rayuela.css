@@ -1,53 +1,48 @@
 body {
 	font-family: "Gentium Book Basic";
+	background-color: "#FFF";
 }
+
 
 h1 {
-	position: relative;
-		left: 250px;
-	font-size: 2.5em;
+	font-size: 50px;
 	font-weight: 400;
 	text-transform: uppercase;
+	margin: 20px auto;
+	width: 80%;
 }
+
+
+#button-display {
+	width: 80%;
+	margin: 0 auto;
+}
+
 
 #quoteDisplay {
-	display: block;
-	width: 80%;
-	margin-right: 10%;
-	position: relative;
-		left: 250px;
-		top: 50px;	
-	font-size: 2.3em;
-	line-height: 1.3em;
+	margin-top: 30px;
+	font-size: 40px;
+	line-height: 1.3em;	
 }
 
-#quoteButton {
-	position: relative;
-		top: 204px;
-		left: 50px;
-	
-}
 
-#tweet {
-	position: relative;
-		top: 240px;
-		left: 50px;
-}
-
-.btn {
-	position: relative;
-		top: 240px;
-		left: 52px;
-}
-
-a  {
+button  {
+	margin: 0 auto;
 	color: black;
+	background-color: transparent;
+	font-family: "Gentium Book Basic";
+	font-size: 20px;
 	font-style: italic;
 	text-decoration: none;
 	padding: 10px;
 	border: solid;
+	box-shadow: none;
 }
 
-a:hover {
- cursor:pointer;
+
+button:focus, button:active, button.active, button:focus:active {
+  background-image: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
