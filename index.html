@@ -6,78 +6,83 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<link rel="stylesheet" href="CSS/style.css">
-		<link href='https://fonts.googleapis.com/css?family=Trocchi' rel='stylesheet' type='text/css'>
-		
+		<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,900' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Arimo:400,700, 900' rel='stylesheet' type='text/css'>
 		<title>Funmi Ojo</title>
 	</head>
 	
 	<body>
 		<nav class="navbar navbar-default ">
 				<ul class="nav navbar-nav navbar-left">
-					<li><a href="#">HOME</a></li>
-					<li><a href="#Portfolio">PORTFOLIO</a></li>
-					<li><a href="#About">ABOUT</a></li>
 					<li><a href="https://github.com/FunmiOjo" title="My GitHub profile"><img class="github_image"src="https://farm2.staticflickr.com/1692/24360014225_613f1b3ee4_o.png"></a></li>
-					<li><a href="http://codepen.io/SeuNacib/" title="My CodePen profile"><img class="codepen_image" src="https://farm2.staticflickr.com/1560/24064424730_37e2b92f68_o.png"></a></li>
-					<li><a href="http://www.freecodecamp.com/seunacib" title="My freeCodeCamp profile"><img class="freecodecamp_image" src="https://farm2.staticflickr.com/1557/23733183453_0f01cf3c74_o.png"></a></li>			
+					<li><a href="http://codepen.io/SeuNacib/" title="My CodePen profile"><img class="codepen_image" src="https://farm2.staticflickr.com/1560/24064424730_37e2b92f68_o.png"></a></li>			
 				</ul>	
 		</nav>
 		<div class="jumbotron">
 			<div class="container">	
-				<h1>Funmi Ojo, web development</h1> 
+				<h1>FUNMI OJO | <span id="portfolio-word">PORTFOLIO</span></h1> 
 			</div>
 		</div>
-		
-		<section class="projects">
-			<h2 id="Portfolio">Portfolio</h2>
-			<div class="row">
-				<div class="col-xs-12 col-sm-4">
-				<a href="http://funmiojo.com/Rayuela/rayuela.html" class="thumbnail"><div class="carousel-caption"><h3>Quote generator</h3>
-				<p>Built using HTML, CSS and JavaScript, this page allows users to view and tweet
-				random Spanish-language quotes from Julio Cortázar's novel Rayuela.</p></div>
-				<img alt="screenshot of quote machine" src="https://farm4.staticflickr.com/3095/2577400598_3b13d9e4fc_o.jpg"></a>
-				</div>
-				
-				<div class="col-xs-12 col-sm-4">
-				<div class="carousel-caption"><h3>Placeholder</h3>
-				<p>This is the user story for this project and these are the tools I used.</p></div>
-				<a href="#" class="thumbnail"><img src="https://farm4.staticflickr.com/3095/2577400598_3b13d9e4fc_o.jpg"></a>
-				</div>
-				
-				<div class="col-xs-12 col-sm-4">
-				<div class="carousel-caption"><h3>Placeholder</h3>
-				<p>This is the user story for this project and these are the tools I used.</p></div>
-				<a href="#" class="thumbnail"><img src="https://farm4.staticflickr.com/3095/2577400598_3b13d9e4fc_o.jpg"></a>
-				</div>
-				
-				<div class="col-xs-12 col-sm-4">
-				<div class="carousel-caption"><h3>Placeholder</h3>
-				<p>This is the user story for this project and these are the tools I used.</p></div>
-				<a href="#" class="thumbnail"><img src="https://farm4.staticflickr.com/3095/2577400598_3b13d9e4fc_o.jpg"></a>
-				</div>
-				
-				<div class="col-xs-12 col-sm-4">
-				<div class="carousel-caption"><h3>Placeholder</h3>
-				<p>This is the user story for this project and these are the tools I used.</p></div>
-				<a href="#" class="thumbnail"><img src="https://farm4.staticflickr.com/3095/2577400598_3b13d9e4fc_o.jpg"></a>
-				</div>
-				
-				<div class="col-xs-12 col-sm-4">
-				<div class="carousel-caption"><h3>Placeholder</h3>
-				<p>This is the user story for this project and these are the tools I used.</p></div>
-				<a href="#" class="thumbnail"><img src="https://farm4.staticflickr.com/3095/2577400598_3b13d9e4fc_o.jpg"></a>
-				</div>
-			</div>
-		</section>
 		
 		<section class="about">
 			<div class="container">
 				<h2 id="About">About</h2>
-				<p>I'm learning HTML, CSS, Bootstrap, 
-				Javascript and Python. I follow the FreeCodeCamp curriculum
-				and supplement it with other reference materials including Lynda.com videos
-				and Eloquent Javascript.</p>
-				<p>I live in Washington, DC, used to live in New York City, Buenos Aires and São Paulo and was raised in a small town in Tennessee.</p>
+				<p>The "n" in my name is silent. I live in Washington, DC and 
+				was raised in a small town in Tennessee. I mostly work with
+				"vanilla" JavaScript, HTML and CSS but am also familiar with
+				Python.</p>
+			</div>
+		</section>
+		
+		<section class="projects">
+			
+			<div class="row">
+				<div class="project">
+				<a href="https://github.com/FunmiOjo/wikipedia-viewer" class="thumbnail">
+				<h3>Wikipedia Viewer</h3>
+				<p><span class="tools">Wikimedia API, Ajax, JavaScript, HTML, CSS</span><br>
+				This website allows the user to search for
+				Wikipedia articles and view the search results and links. Users
+				are also provided with a link to a random Wikipedia article.</p>
+				</a>
+				</div>
+				
+				<div class="project">
+				<a href="https://github.com/FunmiOjo/weather/tree/master" class="thumbnail">
+				<h3>Weather Search</h3>
+				<p><span class="tools">OpenWeatherMap API, Ajax, JavaScript, HTML, 
+				CSS</span><br>
+				This website displays the temperature and weather conditions from
+				the user's location, if geolocation is available and allows them
+				to search for the same information in a given city.</p>
+				</a>
+				</div>
+				
+				<div class="project">
+				<a href="https://github.com/FunmiOjo/calculator" class="thumbnail">
+				<h3>Calculator</h3>
+				<p><span class="tools">JavaScript, Math.js, HTML, CSS</span><br>
+				This mathematical calculator differs from most JavaScript calculators in that
+				it was written without eval and uses a function from the math.js
+				library to avoid floating point rounding errors.</p>
+				</a>
+				</div>
+				
+				<div class="project">
+				<a href="https://github.com/FunmiOjo/rayuela-quote-machine" class="thumbnail">
+				<h3>Rayuela Quotes</h3>
+				<p><span class="tools">JavaScript, HTML, CSS</span><br>This website displays
+				my favorite quotes (in Spanish) from the novel Rayuela.</p>
+				</a>
+				</div>
+				
+				<div class="project">
+				<a href="https://github.com/FunmiOjo/rayuela-quote-machine" class="thumbnail">
+				<h3>Snippets</h3>
+				<p><span class="tools">JavaScript, Python</span><br>A GitHub 
+				repository of coding katas I've solved.</p>
+				</a>
+				</div>
 			</div>
 		</section>
 		
